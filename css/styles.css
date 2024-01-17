@@ -95,10 +95,24 @@ address {
         margin-right: 76px;
 }
 
-.band {
+.header-menu-page {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+}
+
+ .band {
     position: relative;
-        
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  .band::after {
@@ -106,7 +120,6 @@ address {
      position: absolute;
      left: 0;
      bottom: -1px;
-
      background-color: #404bbf;
      border-radius: 2px;
      width: 48px;
@@ -126,19 +139,7 @@ address {
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
-.header-menu-page {
-    color: #2E2F42;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.32px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        display: inline-block;
-}
+
 
 .header-menu-page:hover,
 .header-menu-page:focus {
